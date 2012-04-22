@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>LungoJS 1.2</title>
+    <meta name="description" content="">
+    <meta name="author" content="Javier Jiménez Villar (@soyjavi)">
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/icon@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/icon.png">
+    <link rel="apple-touch-startup-image" href="assets/images/default.png">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./lungo.js/lungo-1.2.css">
+    <link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
+    <link rel="stylesheet" href="assets/my-theme.css">
+</head>
+
+<body class="app">
+
+
+    <section id="main-section">
+
+
+        <header data-title="Dog Owner's Guide" class="">
+            <a href="#about" data-target="section" class="button onright">About</a>
+        </header>
+
+        <article id="main-article" class="list scrollable indented">
+            <ul id="" class="">
+                <li class="red background light"><a href="#missing-pets" data-target="section">MISSING PETS<div data-count="2" class="onright"></div></a></li>
+            </ul><!-- / -->
+            <ul id="" class="">
+                <li class="fadedgreen background"><a href="#learning" data-target="section">Must Know <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#" data-target="section">Adopt <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#" data-target="section">Fist Night <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#" data-target="section">FAQ <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#" data-target="section">Donate <div class="onright" data-icon="right"></div></a></li>
+                <li><a href="#" class="button big green ">Configure</a></li>
+            </ul><!-- / -->
+        </article>
+
+    </section>
+
+    <!-- ============================================================= -->
+    <!-- ABOUT -->
+    <!-- ============================================================= -->
+
+    <section id="about">
+        <header id="" class="" data-title="About" data-back="home">
+            
+        </header><!-- /header -->
+        <article>this is an article</article>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- MISSING PETS -->
+    <!-- ============================================================== -->
+
+    <section id="missing-pets" class="">
+        <header data-back="home" data-title="Missing Pets" class="red"></header>
+
+        <article id="missing-all" class="list scrollable indented">
+            <h1>There is a number of missing pets in your area, have you seen them?</h1> 
+            <ul id="" class="">
+                <!-- <li><a href="" title="">asdasd</a></li> -->
+                <li>
+                    <a href="#missing-individual" data-target="section">
+                        <img src="assets/images/12.jpg" />
+                        <strong>DaVinci</strong>
+                        <small>Last seen in Lynbrook, NY</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/12.jpg" />
+                        <strong>DaVinci</strong>
+                        <small>Last seen in Lynbrook, NY</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/12.jpg" />
+                        <strong>DaVinci</strong>
+                        <small>Last seen in Lynbrook, NY</small>
+                    </a>
+                </li>                
+            </ul>
+        </article>
+
+
+        
+    </section>
+
+<!-- ================================================================== -->
+<!-- LEARNING -->
+<!-- ================================================================== -->
+    <section id="learning">
+        <header data-back="left" data-title="Must Know">
+            
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            this is the MUST
+        </article>
+        <article id="learning-adopt" class="list scrollable indented">
+            this is the MUST2
+        </article>
+        <footer class="toolbar">
+            <nav>
+                <a href="learning-must" data-target="article" data-icon="home" data-title="Must Know"></a>
+                <a href="learning-adopt" data-target="article" data-icon="home" data-title="Must Know"></a>
+                <a href="#" data-icon="home" data-title="Must Know"></a>
+                <a href="#" data-icon="home" data-title="Must Know"></a>
+                <a href="#" data-icon="home" data-title="Must Know"></a>
+            </nav>
+        </footer>
+    </section><!-- / -->
+
+
+
+
+
+
+
+
+
+<!-- ================================================================== -->
+<!-- templates -->
+<!-- ================================================================== -->
+
+<section id="missing-individual" class="">
+    <header id="header" class="" data-title="Missing pets" data-back="left">
+    </header>
+    <article id="missing-single" class="list scrollable indented">
+        <ul>
+            <li><a href="#" class="button big indented red">Contact Owner</a></li>
+            <li><strong>Name:</strong> DaVinci</li>
+            <li><strong>Last seen:</strong> Thursday 20, April at 2:30pm</li>
+            <li><strong>Last known location:</strong> Starks pl. in Lynbrook, NY</li>
+            <li><strong>Race:</strong> Mix Hound</li>
+            <li><strong>Colors:</strong> Tan</li>
+            <li><strong>Weight:</strong> 20</li>
+            <li><strong>Reward:</strong> $300</li>
+            <li>
+                <strong>Other Details</strong>
+                <ul>
+                    <li>LOVES peanut butter</li>
+                    <li>Black tail, the tip is white</li>
+                    <li>Will come over if you say "Cookie"</li>
+                </ul>
+            </li>
+        </ul>
+        
+    </article><!-- / -->
+
+</section><!-- /missing-individual -->
+    <!-- LungoJS (Production mode) -->
+    <script src="lungo.js/lungo-1.2.js"></script>
+    <!-- LungoJS - Sandbox App -->
+    <script src="app/app.js"></script>
+    <script src="app/data.js"></script>
+    <script src="app/events.js"></script>
+    <script src="app/services.js"></script>
+    <script src="app/view.js"></script>
+</body>
+</html>
