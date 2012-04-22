@@ -332,3 +332,22 @@ header .bubble.count {
 .list li:not(.toolbar){
   padding:10px 6px 10px 8px;
 }
+.list li:not(.toolbar).image{
+  margin:10px auto;
+  text-align: center;
+
+}
+
+
+.list li:not(.toolbar).image img{
+  float: none;
+  /*width:300px;*/
+  min-width:100%;
+  height:50%;
+}
+
+
+.list li:not(.toolbar) .f_none span{
+  float:none;
+}
+

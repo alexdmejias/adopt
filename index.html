@@ -20,7 +20,7 @@
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="./lungo.js/lungo-1.2.css">
     <link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
-    <link rel="stylesheet" href="assets/my-theme.css">
+    <!-- <link rel="stylesheet" href="./assets/stylesheets/my-theme.css"> -->
 </head>
 
 <body class="app">
@@ -135,13 +135,14 @@
 <!-- templates -->
 <!-- ================================================================== -->
 
-<section id="missing-individual" class="">
+<section id="missing-individual">
     <header id="header" class="" data-title="Missing pets" data-back="left">
     </header>
     <article id="missing-single" class="list scrollable indented">
         <ul>
-            <li><a href="#" class="button big indented red">Contact Owner</a></li>
+            <li><a href="#missing-contact" data-target="section" class="button big indented red">Contact Owner</a></li>
             <li><strong>Name:</strong> DaVinci</li>
+            <li class="image"><img src="assets/images/davinci.jpg" width="250" height="188"/></li>
             <li><strong>Last seen:</strong> Thursday 20, April at 2:30pm</li>
             <li><strong>Last known location:</strong> Starks pl. in Lynbrook, NY</li>
             <li><strong>Race:</strong> Mix Hound</li>
@@ -161,6 +162,32 @@
     </article><!-- / -->
 
 </section><!-- /missing-individual -->
+
+<!-- ====================================== -->
+
+<section id="missing-contact">
+    <header data-title="Contact Owner" data-back="left"></header>
+
+    <article id="missing-contact" class="list scrollable indented">
+        <ul>
+            <li><a href="tel:6543211" title="" class="button big red f_none" data-icon="phone">Call</a></li>
+            <li><a href="tel:6543211" title="" class="button big red f_none" data-icon="message">Text Message</a></li>
+            <li><a href="tel:6543211" title="" class="button big red f_none" data-icon="mail">Mail</a></li>
+        </ul><!-- / -->
+    </article><!-- /missing-contact -->
+</section><!-- /missing-contact -->
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- LungoJS (Production mode) -->
     <script src="lungo.js/lungo-1.2.js"></script>
     <!-- LungoJS - Sandbox App -->
