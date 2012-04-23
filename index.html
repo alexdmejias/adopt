@@ -24,27 +24,38 @@
 </head>
 
 <body class="app">
-
-
     <section id="main-section">
-
-
         <header data-title="Dog Owner's Guide">
             <a href="#about" data-target="section" class="button onright">About</a>
         </header>
 
         <article id="main-article" class="list scrollable indented">
-            <a href="#" title=""></a><!-- done in order to prevent bug -->
             <ul>
-                <li class="red background light"><a href="#missing-pets" data-target="section">MISSING PETS<div data-count="2" class="onright"></div></a></li>
+                <li class="red background light">
+                    <a href="#missing-pets" data-target="section">MISSING PETS<div data-count="2" class="onright"></div></a>
+                </li>
             </ul><!-- / -->
-            <ul  >
-                <li class="fadedgreen background"><a href="#learning" data-target="section">Must Know <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">Adopt <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">Fist Night <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">FAQ <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">Donate <div class="onright" data-icon="right"></div></a></li>
-                <li><a href="#" class="button big green ">Configure</a></li>
+            <ul>
+                <li class="anchor green background light" data-icon="question">Learn</li>
+                <li class="fadedgreen background"><a href="#learning-must" data-target="section">Must Know <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#learning-adopt" data-target="section">Adopt <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#learning-first" data-target="section">Fist Night <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#learning-faq" data-target="section">FAQ <div class="onright" data-icon="right"></div></a></li>
+                <li class="fadedgreen background"><a href="#learning-donate" data-target="section">Donate <div class="onright" data-icon="right"></div></a></li>
+                <li class="anchor green background light" data-icon="user">You and Your Pet</li>
+                <li class="fadedgreen background">
+                    <a href="#missing-pets" data-target="section">Configure</a>
+                </li>
+                <li class="fadedgreen background">
+                    <a href="#missing-pets" data-target="section">Register Your Pet</a>
+                </li>                
+            </ul><!-- / --> 
+            <ul>
+                <li  data-icon="info"class="anchor green background light">Random Tip</li>
+                <li class="yello background dark">
+                    <h1>Teaching New Tricks</h1>
+                    <!-- <p>You don't have to drill in a new skill or trick ot you dog in one day. Multiple short sessions each day helps your pet in the long run.</p> -->
+                </li>
             </ul><!-- / -->
         </article>
 
@@ -59,7 +70,6 @@
             
         </header><!-- /header -->
         <article>this is an article
-            <a href="#" title=""></a><!-- done in order to prevent bug -->
         </article>
     </section>
 
@@ -71,65 +81,137 @@
         <header data-back="home" data-title="Missing Pets" class="red"></header>
 
         <article id="missing-all" class="list scrollable indented">
-            <a href="#" title=""></a><!-- done in order to prevent bug -->
             <h1>There is a number of missing pets in your area, have you seen them?</h1> 
-            <ul  >
+            <ul>
                 <!-- <li><a href="" title="">asdasd</a></li> -->
                 <li>
                     <a href="#missing-individual" data-target="section">
-                        <img src="assets/images/12.jpg" />
+                        <img src="assets/images/davinci.jpg" />
                         <strong>DaVinci</strong>
                         <small>Last seen in Lynbrook, NY</small>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="assets/images/12.jpg" />
-                        <strong>DaVinci</strong>
-                        <small>Last seen in Lynbrook, NY</small>
+                        <img src="assets/images/davinci.jpg" />
+                        <strong>Buddy</strong>
+                        <small>Last seen in Long Beach, NY</small>
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <img src="assets/images/12.jpg" />
-                        <strong>DaVinci</strong>
-                        <small>Last seen in Lynbrook, NY</small>
-                    </a>
-                </li>                
+              
             </ul>
         </article>
-
-
-        
     </section>
 
 <!-- ================================================================== -->
-<!-- LEARNING -->
+<!-- LEARNING - MUST -->
 <!-- ================================================================== -->
-    <section id="learning">
+    <section id="learning-must">
         <header data-back="left" data-title="Must Know">
-            
         </header><!-- /header -->
         <article id="learning-must" class="list scrollable indented">
-            <a href="#" title=""></a><!-- done in order to prevent bug -->
             this is the MUST
         </article>
-        <article id="learning-adopt" class="list scrollable indented">
-            this is the MUST2
-        </article>
-        <footer class="toolbar">
+        
+
+        <footer class="toolbar with-labels">
             <nav>
-                <a href="learning-must" data-target="article" data-icon="home" data-title="Must Know"></a>
-                <a href="learning-adopt" data-target="article" data-icon="home" data-title="Must Know"></a>
-                <a href="#" data-icon="home" data-title="Must Know"></a>
-                <a href="#" data-icon="home" data-title="Must Know"></a>
-                <a href="#" data-icon="home" data-title="Must Know"></a>
+                <a href="#learning-must" class="current" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-must" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-must" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-must" data-target="section" data-label="Must Learn" data-icon="home"></a>
             </nav>
-        </footer>
+        </footer> 
     </section><!-- / -->
 
+<!-- ================================================================== -->
+<!-- LEARNING - ADOPT -->
+<!-- ================================================================== -->
+    <section id="learning-must">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            this is the MUST
+        </article>
+        
 
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" class="current" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-first" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-faq" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-donate" data-target="section" data-label="Must Learn" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
 
+<!-- ================================================================== -->
+<!-- LEARNING - FIRST -->
+<!-- ================================================================== -->
+    <section id="learning-first">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            this is the MUST
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-first" class="current" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-faq" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-donate" data-target="section" data-label="Must Learn" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
+
+    <!-- ================================================================== -->
+<!-- LEARNING - FAQ -->
+<!-- ================================================================== -->
+    <section id="learning-faq">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            this is the MUST
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-first" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-faq" class="current" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-donate" data-target="section" data-label="Must Learn" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
+
+    <!-- ================================================================== -->
+<!-- LEARNING - DONATE -->
+<!-- ================================================================== -->
+    <section id="learning-donate">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            <h1>Donate
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-must" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-must" data-target="section" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-must" class="current" data-target="section" data-label="Must Learn" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
 
 
 
@@ -144,7 +226,6 @@
     <header id="header"  data-title="Missing pets" data-back="left">
     </header>
     <article id="missing-single" class="list scrollable indented">
-            <a href="#" title=""></a><!-- done in order to prevent bug -->
         <ul>
             <li><a href="#missing-contact" data-target="section" class="button big indented red">Contact Owner</a></li>
             <li><strong>Name:</strong> DaVinci</li>

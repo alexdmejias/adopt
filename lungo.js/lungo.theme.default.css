@@ -318,7 +318,7 @@ header .bubble.count {
   background-color:#DC0911;
   color:#fff;
 }*/
-.light,a.light, .list  li.light a{
+.light,a.light, .list  li.light a,.list li.light.anchor{
   color:#fff;
 }
 .dark,a.dark, .list li.dark a{
@@ -329,7 +329,7 @@ header .bubble.count {
   padding:10px 20px;
 }
 
-.list li:not(.toolbar){
+.list li:not(.toolbar,.anchor){
   padding:10px 6px 10px 8px;
 }
 .list li:not(.toolbar).image{

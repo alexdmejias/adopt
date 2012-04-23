@@ -174,9 +174,10 @@ a.red,.red,.red.background{background-color:#e33100;}
 a.red:active,a.red.active{background-color:#c5280f;}
 /*OR*/
 a.lightgreen,.lightgreen,.lightgreen.background{background-color:#91bd09;}
-a.fadedgreen,.fadedgreen,.fadedgreen.background{background-color:#E0E8C9;}
 a.lightgreen:active,a.lightgreen.active{background-color:#7ea41a;}
-a.green,.green{background-color:#009600;}
+a.fadedgreen,.fadedgreen,.fadedgreen.background{background-color:#E0E8C9;}
+/*OR*/
+a.green,.green,.green.background,.green.background.anchor{background-color:#009600;}
 a.green:active,a.green.active{background-color:#00770e;}
 a.blue,.blue{background-color:#237fd7;}
 a.blue:active,a.blue.active{background-color:#1a69b6;}
