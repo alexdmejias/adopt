@@ -1,11 +1,9 @@
 App.Events = (function(lng, app, undefined) {
 
-	$$('#missing-pets-link').tap(function(event){
-		// lng.Router.section('missing-pets');
-		lng.Router.article('missing-pets','missing-all');
-		alert('test');
-	});
-
+   lng.dom('body').tap(function(event) {
+        lng.Router.section('about');
+ 	});	
+ 	lng.Router.section('about');
    return {
 
    }
