@@ -132,7 +132,7 @@ section.aside.onright {
   border-left: solid 1px #fff;
   border-right: solid 1px #fff;
 }
-.list.indented li:first-child {
+.list .indented li:first-child {
   border-top: solid 1px #fff;
   -webkit-border-top-left-radius: .5em;
   -moz-border-top-left-radius: .5em;
@@ -144,7 +144,7 @@ section.aside.onright {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
 }
-.list.indented li:last-child {
+.list .indented li:last-child {
   border-bottom: solid 1px  #fff;
   -webkit-border-bottom-left-radius: .5em;
   -moz-border-bottom-left-radius: .5em;
@@ -318,7 +318,7 @@ header .bubble.count {
   background-color:#DC0911;
   color:#fff;
 }*/
-.light,a.light, .list  li.light a{
+.light,a.light, .list  li.light a,.list li.light.anchor{
   color:#fff;
 }
 .dark,a.dark, .list li.dark a{
@@ -329,7 +329,7 @@ header .bubble.count {
   padding:10px 20px;
 }
 
-.list li:not(.toolbar){
+.list li:not(.toolbar,.anchor){
   padding:10px 6px 10px 8px;
 }
 .list li:not(.toolbar).image{
@@ -351,3 +351,6 @@ header .bubble.count {
   float:none;
 }
 
+.tip{
+  background-color:#666;
+}

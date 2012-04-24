@@ -1,8 +1,9 @@
+<<<<<<< HEAD
 <!doctype html>
 <html>
 <head>
     <meta charset="utf-8">
-    <title>LungoJS 1.2</title>
+    <title>Dogs Manual</title>
     <meta name="description" content="">
     <meta name="author" content="Javier Jiménez Villar (@soyjavi)">
     <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
@@ -24,30 +25,252 @@
 </head>
 
 <body class="app">
-
     <section id="main-section">
-
         <header data-title="Dog Owner's Guide">
             <a href="#about" data-target="section" class="button onright">About</a>
         </header>
 
-        <article id="main-article" class="list scrollable indented">
-            <a href="#" title=""></a><!-- done in order to prevent bug -->
-            <ul>
-                <li class="red background light"><a href="#"  id="missing-pets-link">MISSING PETS<div data-count="2" class="onright"></div></a></li>
-            </ul><!-- / -->
-            <ul>
-                <li class="fadedgreen background"><a href="#learning" data-target="section">Must Know <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">Adopt <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">Fist Night <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">FAQ <div class="onright" data-icon="right"></div></a></li>
-                <li class="fadedgreen background"><a href="#" data-target="section">Donate <div class="onright" data-icon="right"></div></a></li>
-                <li><a href="#" class="button big green">Configure</a></li>
-            </ul><!-- / -->
+        <article id="main-article" class="list scrollable">
+            
+            <div class="indented">
+                <ul>
+                    <li class="red background light">
+                        <a href="#missing-pets" data-target="section">MISSING PETS<div data-count="2" class="onright"></div></a>
+                    </li>
+
+                </ul>
+                <ul>
+                    <li class="anchor green background light" data-icon="question">Learn</li>
+                    <li class="fadedgreen background"><a href="#learning-must" data-target="section">Must Know <div class="onright" data-icon="right"></div></a></li>
+                    <li class="fadedgreen background"><a href="#learning-adopt" data-target="section">Adopt <div class="onright" data-icon="right"></div></a></li>
+                    <li class="fadedgreen background"><a href="#learning-first" data-target="section">Fist Night <div class="onright" data-icon="right"></div></a></li>
+                    <li class="fadedgreen background"><a href="#learning-faq" data-target="section">FAQ <div class="onright" data-icon="right"></div></a></li>
+                    <li class="fadedgreen background"><a href="#learning-donate" data-target="section">Donate <div class="onright" data-icon="right"></div></a></li>
+                    <li class="anchor green background light" data-icon="user">You and Your Pet</li>
+                    <li class="fadedgreen background">
+                        <a href="#missing-pets" data-target="section">Configure</a>
+                    </li>
+                    <li class="fadedgreen background">
+                        <a href="#missing-pets" data-target="section">Register Your Pet</a>
+                    </li>                
+                </ul>
+                <ul>
+                    <li  data-icon="info"class="anchor green background light">Random Tip</li>
+                    <li class="yellow background dark tip">
+                        <h1>Teaching New Tricks</h1>
+                        <p>You don't have to drill in a new skill or trick ot you dog in one day. Multiple short sessions each day helps your pet in the long run.</p>
+                    </li>
+                </ul>
+            </div>
         </article>
 
     </section>
 
+    <!-- ============================================================= -->
+    <!-- ABOUT -->
+    <!-- ============================================================= -->
+
+    <section id="aboutasdasd">
+        <header data-title="About" data-back="home">
+            
+        </header><!-- /header -->
+        <article>this is an article
+        </article>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- MISSING PETS -->
+    <!-- ============================================================== -->
+
+    <section id="missing-pets" >
+        <header data-back="home" data-title="Missing Pets" class="red"></header>
+
+        <article id="missing-all" class="list scrollable indented">
+            <h1>There is a number of missing pets in your area, have you seen them?</h1> 
+            <ul>
+                <!-- <li><a href="" title="">asdasd</a></li> -->
+                <li>
+                    <a href="#missing-individual" data-target="section">
+                        <img src="assets/images/davinci.jpg" />
+                        <strong>DaVinci</strong>
+                        <small>Last seen in Lynbrook, NY</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="assets/images/davinci.jpg" />
+                        <strong>Buddy</strong>
+                        <small>Last seen in Long Beach, NY</small>
+                    </a>
+                </li>
+              
+            </ul>
+        </article>
+    </section>
+
+<!-- ================================================================== -->
+<!-- LEARNING - MUST -->
+<!-- ================================================================== -->
+    <section id="learning-must">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            this is the MUST
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" class="current" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Adopt" data-icon="home"></a>
+                <a href="#learning-first" data-target="section" data-label="First" data-icon="home"></a>
+                <a href="#learning-faq" data-target="section" data-label="FAQ" data-icon="home"></a>
+                <a href="#learning-donate" data-target="section" data-label="Donate" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
+
+<!-- ================================================================== -->
+<!-- LEARNING - ADOPT -->
+<!-- ================================================================== -->
+    <section id="learning-adopt">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            Adopting info
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" class="current" data-target="section" data-label="Adopt" data-icon="home"></a>
+                <a href="#learning-first" data-target="section" data-label="First" data-icon="home"></a>
+                <a href="#learning-faq" data-target="section" data-label="FAQ" data-icon="home"></a>
+                <a href="#learning-donate" data-target="section" data-label="Donate" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
+
+<!-- ================================================================== -->
+<!-- LEARNING - FIRST -->
+<!-- ================================================================== -->
+    <section id="learning-first">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            First night information
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Adopt" data-icon="home"></a>
+                <a href="#learning-first" class="current" data-target="First" data-label="Must Learn" data-icon="home"></a>
+                <a href="#learning-faq" data-target="section" data-label="FAQ" data-icon="home"></a>
+                <a href="#learning-donate" data-target="section" data-label="Donate" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
+
+    <!-- ================================================================== -->
+<!-- LEARNING - FAQ -->
+<!-- ================================================================== -->
+    <section id="learning-faq">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            this is the MUST
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Adopt" data-icon="home"></a>
+                <a href="#learning-first" data-target="section" data-label="First" data-icon="home"></a>
+                <a href="#learning-faq" class="current" data-target="section" data-label="FAQ" data-icon="home"></a>
+                <a href="#learning-donate" data-target="section" data-label="Donate" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
+
+    <!-- ================================================================== -->
+<!-- LEARNING - DONATE -->
+<!-- ================================================================== -->
+    <section id="learning-donate">
+        <header data-back="left" data-title="Must Know">
+        </header><!-- /header -->
+        <article id="learning-must" class="list scrollable indented">
+            <h1>Donate
+        </article>
+        
+
+        <footer class="toolbar with-labels">
+            <nav>
+                <a href="#learning-must" data-target="section" data-label="Must" data-icon="warning"></a>
+                <a href="#learning-adopt" data-target="section" data-label="Adopt" data-icon="home"></a>
+                <a href="#learning-must" data-target="section" data-label="First" data-icon="home"></a>
+                <a href="#learning-must" data-target="section" data-label="FAQ" data-icon="home"></a>
+                <a href="#learning-must" class="current" data-target="section" data-label="Donate" data-icon="home"></a>
+            </nav>
+        </footer> 
+    </section><!-- / -->
+
+
+
+
+
+
+<!-- ================================================================== -->
+<!-- templates -->
+<!-- ================================================================== -->
+
+<section id="missing-individual">
+    <header id="header"  data-title="Missing pets" data-back="left">
+    </header>
+    <article id="missing-single" class="list scrollable indented">
+        <ul>
+            <li><a href="#missing-contact" data-target="section" class="button big indented red">Contact Owner</a></li>
+            <li><strong>Name:</strong> DaVinci</li>
+            <li class="image"><img src="assets/images/davinci.jpg" width="250" height="188"/></li>
+            <li><strong>Last seen:</strong> Thursday 20, April at 2:30pm</li>
+            <li><strong>Last known location:</strong> Starks pl. in Lynbrook, NY</li>
+            <li><strong>Race:</strong> Mix Hound</li>
+            <li><strong>Colors:</strong> Tan</li>
+            <li><strong>Weight:</strong> 20</li>
+            <li><strong>Reward:</strong> $300</li>
+            <li>
+                <strong>Other Details</strong>
+                <ul>
+                    <li>LOVES peanut butter</li>
+                    <li>Black tail, the tip is white</li>
+                    <li>Will come over if you say "Cookie"</li>
+                </ul>
+            </li>
+        </ul>
+        
+    </article><!-- / -->
+
+</section><!-- /missing-individual -->
+
+<!-- ====================================== -->
+
+<section id="missing-contact">
+    <header data-title="Contact Owner" data-back="left"></header>
+
+    <article id="missing-contact" class="list scrollable indented">
+        <ul>
+            <li><a href="tel:6543211" title="" class="button big red f_none" data-icon="phone">Call</a></li>
+            <li><a href="tel:6543211" title="" class="button big red f_none" data-icon="message">Text Message</a></li>
+            <li><a href="tel:6543211" title="" class="button big red f_none" data-icon="mail">Mail</a></li>
+        </ul><!-- / -->
+    </article><!-- /missing-contact -->
+</section><!-- /missing-contact -->
+
+
+    <script src="phonegap.js"></script>
     <!-- LungoJS (Production mode) -->
     <script src="lungo.js/lungo-1.2.js"></script>
     <!-- LungoJS - Sandbox App -->
@@ -56,6 +279,6 @@
     <script src="app/events.js"></script>
     <script src="app/services.js"></script>
     <script src="app/view.js"></script>
-    <!--<script src="phonegap.js"></script>
 </body>
+
 </html>
