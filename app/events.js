@@ -1,13 +1,14 @@
 App.Events = (function(lng, app, undefined) {
 
-lng.View.Scroll.init('main-article');
 
 
 
 
-	// lng.dom('article > a').tap(function(event){
-	// 	alert('wasd');
-	// });
+
+	 lng.dom('body').tap(function(event){
+	 	//lng.Router.section('about');
+	 	lng.Router.article('about','aboutone');
+	 });
     return {
 
     }

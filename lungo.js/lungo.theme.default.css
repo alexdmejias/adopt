@@ -132,7 +132,7 @@ section.aside.onright {
   border-left: solid 1px #fff;
   border-right: solid 1px #fff;
 }
-.list.indented li:first-child {
+.list .indented li:first-child {
   border-top: solid 1px #fff;
   -webkit-border-top-left-radius: .5em;
   -moz-border-top-left-radius: .5em;
@@ -144,7 +144,7 @@ section.aside.onright {
   -moz-background-clip: padding-box;
   background-clip: padding-box;
 }
-.list.indented li:last-child {
+.list .indented li:last-child {
   border-bottom: solid 1px  #fff;
   -webkit-border-bottom-left-radius: .5em;
   -moz-border-bottom-left-radius: .5em;
@@ -351,3 +351,6 @@ header .bubble.count {
   float:none;
 }
 
+.tip{
+  background-color:#666;
+}
