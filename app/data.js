@@ -1,25 +1,22 @@
 App.Data = (function(lng, app, undefined) {
 
-    return {
-    	test : [
-    	        {
-            "id":3,
-            "date": "12/10/2011",
-            "type": "Walk",
-            "distance": "2.5 miles",
-            "comments": "Shouldn't have taken the dog",
-            "minutes": 45
-        },
+    missing_pets:[
         {
-            "id":4,
-            "date": "12/09/2011",
-            "type": "Run",
-            "distance": "Long",
-            "comments": "Legs felt good",
-            "minutes": 75
+            'id':1,
+            'name':'DaVinci',
+            'Last Seen':'12/10,2011',
+            'Last Known Location':'Starks pl. Lynbrook,NY',
+            'Breed':'Hound - Beagle',
+            'Colors':'tan, black, white',
+            'Weight':'20 lb.',
+            'Reward':'$300',
+            // ADD "Other Details"
+            'image_src':'assets/images/davinci.jpg'
         }
-]
 
-    }
+    ];
+
+return{};
+    
 
 })(LUNGO, App);
