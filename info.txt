@@ -1,0 +1,8 @@
+info
+
+
+PROBLEMS
+* you can zoom in and out
+* streched picture of pet
+* labels move up in fields
+* data-back goes to previous section
