@@ -30,6 +30,7 @@ footer {
 }
 article {
   background-color: #ededed;
+  background: #ededed url('../assets/images/adopt-02.png') no-repeat fixed center 100%;
 }
 article .title {
   color: #797979;
@@ -60,7 +61,7 @@ nav a.current, nav a.active {
 }
 .groupbar a.current {
   color: #6e6e6e;
-  border-bottom: solid 3px #05bde9;
+  border-bottom: solid 3px #009600;
 }
 /* @end */
 /* @group <aside> */
@@ -236,11 +237,11 @@ input, textarea, select {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 input:focus, textarea:focus, select:focus {
-  border-color: #05b8e2;
-  color: #05b8e2;
+  border-color: #009600;
+  color: #009600;
 }
 label {
-  color: #05b8e2;
+  color: #009600;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -341,9 +342,8 @@ header .bubble.count {
 
 .list li:not(.toolbar).image img{
   float: none;
-  /*width:300px;*/
-  min-width:100%;
-  height:50%;
+  max-width:100%;
+  height:auto;
 }
 
 
@@ -353,4 +353,9 @@ header .bubble.count {
 
 .tip{
   background-color:#666;
+}
+
+article .text {
+  margin: 0 20px 10px;
+  padding-top:0;
 }
